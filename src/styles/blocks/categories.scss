@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+  }
+
+.categories {
+  &__wrapper {
+    display: grid;
+    justify-content: center;
+    max-width: 1260px;
+    row-gap: 40px;
+
+    @include on-tablet {
+      row-gap: 56px;
+    }
+  }
+}
+
+.category {
+  &__photos {
+    @include page-grid;
+
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    cursor: $cursor-mouse;
+    transition: transform 0.6s ease;
+    border-radius: 4px;
+    width: auto;
+
+    @include hover(transform, scale(1.1));
+
+    @include on-tablet {
+      grid-column: span 3;
+    }
+
+    @include on-desktop {
+      grid-column: span 6;
+    }
+  }
+
+  &__photo {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    object-fit: cover;
+    margin-bottom: 48px;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 25.2px;
+
+    @include on-tablet {
+      font-size: 22px;
+      line-height: 33.6px;
+    }
+
+    @include on-desktop {
+      font-size: 24px;
+    }
+  }
+
+  &__button {
+    grid-column: 1/-1;
+    text-decoration: none;
+    background-color: #F98921;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 15px 48px;
+    text-align: center;
+
+    @include on-desktop {
+      grid-column: span 4;
+    }
+
+    &:hover {
+      background-color: $main-text-color;
+      cursor: $cursor-mouse;
+    }
+
+    &:active {
+      background-color: $button-active-color;
+    }
+  }
+  }
+
+.button-wrapper {
+  display: grid;
+
+  @include page-grid;
+}
