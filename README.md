@@ -32,20 +32,20 @@ Users should be able to:
 Prerequisites
 
 To run this project locally, ensure you have the following installed:
-	•	Node.js: Version 14.x
-	•	npm: Comes with Node.js (used for installing dependencies)
-	•	Git: For cloning the repository
+-	Node.js: Version 14.x
+- npm: Comes with Node.js (used for installing dependencies)
+- Git: For cloning the repository
 
 Installation
-    1. Clone the Repository
+- 1. Clone the Repository
       git clone https://github.com/NKoshmak/BO-landing-page.git
-    2. Navigate to the Project Directory
+- 2. Navigate to the Project Directory
       cd BO-landing-page
-    3. Install Dependencies
+- 3. Install Dependencies
       npm install
-    4. Run the Project Locally
+- 4. Run the Project Locally
       npm start
-  	5. Open your browser and navigate to http://localhost:3000.
+- 5. Open your browser and navigate to http://localhost:3000.
 
 ### Screenshots
 
