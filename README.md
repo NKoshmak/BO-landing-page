@@ -40,7 +40,7 @@ To run this project locally, ensure you have the following installed:
 
 Installation
 1. Clone the Repository
-   git clone https://github.com/your-username/bo-landing-page.git
+   git clone https://github.com/NKoshmak/bo-landing-page.git
 
 2. Navigate to the Project Directory
    cd bo-landing-page
